@@ -66,9 +66,9 @@ background("green");
   
   
   if(gameState === PLAY){
-    console.log(backGround.position.x)
+    console.log(camera.position.x)
   survivalTime = Math.round(frameCount/100);////
-  backGround.position.x = backGround.position.x+1
+  backGround.position.x = backGround.position.x+10
   
   if (backGround.x&&ground.x&&invisibleGround.x<100){
   
